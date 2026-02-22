@@ -32,6 +32,8 @@ function showSearchHistory() {
     });
 }
 
+//new file
+
 function saveSearchHistory(query) {
     let history = JSON.parse(localStorage.getItem("searchHistory")) || [];
 
